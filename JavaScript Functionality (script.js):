@@ -1,1 +1,32 @@
+// JavaScript code for dynamic form handling and preview functionality
+// You can use JavaScript frameworks like Vue.js or React.js for more advanced functionality
 
+// Function to handle template selection
+function selectTemplate(templateId) {
+    // Load selected template
+}
+
+// Function to handle form input and generate preview
+function generatePreview() {
+    // Collect input data from form fields
+    // Generate preview based on selected template and input data
+}
+
+// Function to handle download/export
+function downloadResume(format) {
+    // Generate resume content in specified format (e.g., PDF, Word)
+    // Provide download link or export functionality
+}
+
+// Event listeners for form inputs and buttons
+document.getElementById('template-selection').addEventListener('change', function() {
+    selectTemplate(this.value);
+});
+
+document.getElementById('input-fields').addEventListener('change', function() {
+    generatePreview();
+});
+
+document.getElementById('download-export').addEventListener('click', function() {
+    // Handle download/export options
+});
